@@ -12,7 +12,7 @@ public class Task {
 
     }
     public boolean in1020(int a, int b) {
-
+return true;
     }
 
 }

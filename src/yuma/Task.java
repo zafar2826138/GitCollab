@@ -9,7 +9,7 @@ public class Task {
 
     }
     public int intMax(int a, int b, int c) {
-
+return 2;
     }
 
 }

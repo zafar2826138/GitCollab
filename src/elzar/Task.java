@@ -12,7 +12,7 @@ public class Task {
 
     }
     public boolean startHi(String str) {
-
+return true;
     }
 
 }
