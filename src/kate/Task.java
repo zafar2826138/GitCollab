@@ -12,7 +12,7 @@ public class Task {
 
     }
     public boolean hasTeen(int a, int b, int c) {
-return true;
+
     }
 
 }
