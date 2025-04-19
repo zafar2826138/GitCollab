@@ -1,3 +1,4 @@
+
 package elizat;
 
 public class Task {
@@ -6,4 +7,8 @@ public class Task {
        String reversed =new StringBuilder(a).reverse().toString();
         System.out.println("reversed " +reversed);
     }
+
+
+
 }
+
