@@ -15,8 +15,16 @@ public class Task {
         int[] nums = {1, 2, 9, 9, 3, 9};
         System.out.println("Number of 9's: " + task.arrayCount9(nums));
 
+// palindrome
+        System.out.println(isPalindrome("Aziza"));  // Expected: true
+        System.out.println(isPalindrome("Hello"));
+
+
+
+=======
         int n = 10;
         task.getFibonacci(n);
+// main
     }
 
 
@@ -30,6 +38,20 @@ public class Task {
         return count;
     }
 
+// palindrome
+    public static boolean isPalindrome(String word) {
+        String reverse = new StringBuilder(word).reverse().toString();
+
+        if (word.equalsIgnoreCase(reverse)) {
+            System.out.println(word + " is a palindrome");
+            return true;
+        } else {
+            System.out.println(word + " is not a palindrome");
+            return false;
+        }
+    }
+
+//
     public int getFibonacci(int n) {
 
         int number = 10;
@@ -46,5 +68,6 @@ public class Task {
         }
         return number;
     }
+// main
 }
 
