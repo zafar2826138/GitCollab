@@ -12,6 +12,11 @@ arrayCount9([1, 9, 9, 3, 9]) → 3 */
 public class Task {
     public static void main(String[] args) {
 
+        System.out.println(isPalindrome("Aziza"));  // Expected: true
+        System.out.println(isPalindrome("Hello"));
+
+
+
     }
     public int arrayCount9(int[] nums) {
 
@@ -23,6 +28,18 @@ public class Task {
        }
        return count;
 
+    }
+
+    public static boolean isPalindrome(String word) {
+        String reverse = new StringBuilder(word).reverse().toString();
+
+        if (word.equalsIgnoreCase(reverse)) {
+            System.out.println(word + " is a palindrome");
+            return true;
+        } else {
+            System.out.println(word + " is not a palindrome");
+            return false;
+        }
     }
 
 }
