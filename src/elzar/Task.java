@@ -17,6 +17,13 @@ public class Task {
         task.startHi("hello hi");
         task.startHi("Hi");
         task.startHi("hI");
+        task.startHi("hiiiii");
+        task.startHi("hi everybody hi");
+        task.startHi("My friend hI! ");
+        task.startHi("hello hI");
+        task.startHi("hi hello hi hi ");
+
+
 
     }
 
